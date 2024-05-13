@@ -1,0 +1,290 @@
+.wrapper {
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 1440px;
+  height: 104px;
+  border-bottom: 1px solid #E2E8F0;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  width: 1321px;
+  height: 44px;
+  margin-top: 32px;
+  margin-left: 59px;
+  margin-bottom: 32px;
+  margin-right: 59px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  height: 29x;
+  width: 48px;
+}
+.mid-box{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  color: #4A5568;
+}
+.far-box{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  color: #4A5568;
+}
+.arrow-down{
+  height: 24px;
+  width: 24px;
+}
+.shopping-icon{
+  height: 24px;
+  width: 24px;
+}
+.profile{
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+}
+.far1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.far2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+
+}
+.card-left{
+  width:778px;
+  height:772px;
+  margin-left: 59px;
+  margin-top: 44px;
+  border-radius: 10px;
+  background-color: #f7fafc;
+}
+.card-right{
+  width: 513px;
+  height: 772px;
+  margin-top: 44px;
+  margin-left: 36px;
+  border-radius: 10px;
+  background-color:#f7fafc;
+}
+.account-summary{
+  margin-top: 35px;
+  margin-left: 42px;
+  width: 694px;
+  height: 654px;
+}
+.order-summary{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 675px;
+  width: 421px;
+  margin-top: 36px;
+  margin-left: 45px;
+}
+.top-box{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #E2E8F0;
+  row-gap: 20px;
+  height: 574px;
+  width: 694px;
+}
+.top-up1{
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: center;
+}
+.textAccount{
+  color: #3182CE;
+  margin-top: none;
+  margin-left: 60px;
+}
+.symbols-1,.symbols-2{
+  display: flex;
+  flex-direction: row;
+  width: 96px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.line1,.line2,.line3,.line4{
+  width: 45px;
+  border: 1px;
+}
+.check1,.check2{
+  width: 24px;
+  height: 24px;
+}
+.textShipping{
+  color: #828282;
+}
+.textPayment{
+  color: #828282;
+}
+.top-up2{
+  height: 498px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #718096;
+}
+input[type="email"],
+input[type="password"]{
+    border-radius: 10px;
+    height: 59px;
+    width: 534px;
+    background-color: #E2E8F0;
+}
+input[type="password"]{
+  margin-top: 5px;
+}
+input[type=email]{
+  margin-top: 15px;
+}
+.button-group{
+  height: 60px;
+  width: 336px;
+  margin-left: 213px;
+  margin-top: 20px;
+}
+.register-button{
+  height: 19px;
+  width: 156px;
+  margin-right: 20px;
+  border: none;
+  background-color: none;
+}
+.login-button{
+  height: 60px;
+  width: 150px;
+  background-color: #3182CE;
+  border-radius: 10px;
+  border: none;
+}
+.bottom-box{
+  display: flex;
+  height: 44px;
+  width: 694px;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+.shipping-details{
+margin-right: 2px;
+width: 200px;
+height: 60px;
+background-color: #3182CE;
+border-radius: 10px;
+border: none;
+}
+.cancel-order{
+margin-left: 228px;
+width: 99px;
+height: 19px;
+border: none;
+}
+.headphones{
+  height: 162px;
+  width: 421px;
+}
+.midbox{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.symbols-3{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.sub-box,.inc-box{
+  margin-top: 30px;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background-color: #E2E8F0;
+  align-items: center;
+  justify-content: center;
+}
+.sub,.inc{
+  height: 24px;
+  width: 24px;
+}
+.number{
+  margin-top: 40px;
+}
+.price{
+  width: 85px;
+  height: 24px;
+}
+.tag{
+  margin-top: -40px;
+}
+.giftCard{
+  width: 270px;
+  height: 59px;
+}
+input[type="text"]{
+  height: 59px;
+  width: 270px;
+  border-radius: 5px;
+  background-color: #E2E8F0;
+  margin-top: 20px;
+  border: none;
+}
+label[for="code"]
+{
+  width: 194px;
+}
+.mid-mid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.apply{
+  width: 125px;
+  height: 60px;
+  margin-top: 58px;
+  border-radius: 10px;
+  border: 2px solid #3182CE;
+  color: #3182CE;
+  background-color: none;
+}
+.sub-total,.Tax,.Shipping,.Total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.green{
+  color: #38B2AC;
+}

@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(216,229,246) ;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(216,229,246);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238,243,251);
+    /* row-gap: 30px; */
+    border-radius: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 90%;
+    width: 30%;
+    margin-top: 75px;
+    margin-bottom: 80px;
+    orientation: portrait;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 20px rgba(174, 206, 231, 0.7), 
+               -8px -8px 30px rgba(174, 206, 231, 0.7);
+    
+}
+.logo{
+    height: 58px;
+    width: 60px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    margin-bottom: 0%;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.Name{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: "Foundry Context W03 Md";
+    margin-bottom: 20px;
+}
+.Job{
+    font-size: 15px;
+    font-weight: lighter;
+    /* margin-right: 10px; */
+    color: gray;
+    margin-top: 20px;
+    row-gap: 20px;
+}
+.social-logo{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.face{
+    width: 22px;
+    height: 18px;
+}
+.tweet{
+    width: 18px;
+    height:16px;
+}
+.insta{
+    width:18px;
+    height:16px;
+}
+.Add{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 0cap;
+    font-weight: bolder;
+}
+
